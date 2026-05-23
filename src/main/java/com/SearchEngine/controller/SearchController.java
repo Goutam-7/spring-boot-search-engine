@@ -11,12 +11,7 @@ public class SearchController {
 
  
 
-	@RequestMapping("/home")
-	public String home()
-	{	
-		System.out.println("Home url triggered");
-		return "home";
-	}
+	
 	
 	
 	@RequestMapping("/search")
